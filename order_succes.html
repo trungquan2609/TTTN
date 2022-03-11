@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N&Q Shop</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- link font chữ -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <!-- link icon -->
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- link css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/cart.css">
+    <link rel="icon" href="./assets/img/logo/main.png" type="image/x-icon"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+      <div class="container-fluid">
+        <div class="header__first">
+          <ul class="nav nav__first">
+            <li class="nav-item nav-item__first">
+              <i class="fi-rs-bell"></i>
+              <a class="nav-link nav-link__first nav-link__first--separate" href="#">Thông báo</a>
+            </li>
+            <li class="nav-item nav-item__first">
+              <a class="nav-link nav-link__first nav-link__first--separate" href="#">Liên hệ</a>
+            </li>
+            <li class="nav-item nav-item__first">
+
+              <a class="nav-link nav-link__first" href="#">Đăng nhập</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__second">
+          <div class="header__second__logo">
+            <a href="#"><img src="./assets/img/logo/logomain.png" alt="" class="header__second__logo--img"></a>
+          </div>
+          <div class="header__second__search">
+            <div class="header__second__search--input-wrap">
+              <input type="text" placeholder="Tìm kiếm..." class="header__second__search--input">
+              <!-- search history -->
+              <div class="header__second__search-history">
+                <h3 class="header__second__search-history-heading">Lịch sử tìm kiếm</h3>
+                <ul class="header__second__search-history-list">
+                  <li class="header__second__search-history-item">
+                    <a href="">Adidas Original</a>
+                  </li>
+                  <li class="header__second__search-history-item">
+                    <a href="">Adidas Original</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <button class="header__second__search--btn">
+              <i class="fi-rs-search header__second__search--btn-icon"></i>
+            </button>
+          </div>
+          <div class="header__second__like">
+            <a href="" class="header__second__like--icon"><i class="fi-rs-heart"></i></a>
+          </div>
+          <div class="header__second__cart">
+            <a href="" class="header__second__cart--icon">
+              <i class="fi-rs-shopping-bag"></i>
+              <span class="header__second__cart--notice">3</span>
+            </a>
+          </div>
+        </div>
+        <div class="header__third">
+          <ul class="nav nav__third">
+            <li class="nav-item nav-item__third">
+              <a class="nav-link nav-link__third" href="#">Trang chủ</a>
+            </li>
+            <li class="nav-item nav-item__third">
+              <a class="nav-link nav-link__third" href="./Product.html">Tất cả sản phẩm</a>
+            </li>
+            <li class="nav-item nav-item__third">
+              <a class="nav-link nav-link__third" href="#">Nam <i class="fi-rs-caret-down"></i></a>
+              <div class="sub-menu-1">
+                <ul>
+                  <li class="hover-me">  <a href="" class="sub-menu-1--link">Tất cả</a>
+                </li>
+                  <li class="hover-me">  <a href="" class="sub-menu-1--link">Giày</a><i class="fi-rr-caret-right"></i>
+                      <div class="sub-menu-2">
+                        <ul>
+                          <li><a href="" class="sub-menu-1--link">Bóng đá</a></li>
+                          <li><a href="" class="sub-menu-1--link">Chạy</a></li>
+                          <li><a href="" class="sub-menu-1--link">Bóng rỗ</a></li>
+                          <li><a href="" class="sub-menu-1--link">dep</a></li>
+                          <li><a href="" class="sub-menu-1--link">Cầu lông</a></li>
+                          <li><a href="" class="sub-menu-1--link">Quần vợt</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li class="hover-me"><a href="" class="sub-menu-1--link">Quần áo</a><i class="fi-rr-caret-right"></i>
+                    <div class="sub-menu-2">
+                      <ul>
+                        <li><a href="" class="sub-menu-1--link">Áo phông & Áo pholo</a></li>
+                        <li><a href="" class="sub-menu-1--link">Áo hoodie & Áo khoác</a></li>
+                        <li><a href="" class="sub-menu-1--link">Áo nỉ và bộ đồ thể thao</a></li>
+                        <li><a href="" class="sub-menu-1--link">Quần bó</a></li>
+                        <li><a href="" class="sub-menu-1--link">Áo thun</a></li>
+                        <li><a href="" class="sub-menu-1--link">Áo sort</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="hover-me"><a href="" class="sub-menu-1--link">Phụ kiện</a><i class="fi-rr-caret-right"></i>
+                    <div class="sub-menu-2">
+                      <ul>
+                        <li><a href="" class="sub-menu-1--link">Tất cả túi</a></li>
+                        <li><a href="" class="sub-menu-1--link">Ba lô</a></li>
+                        <li><a href="" class="sub-menu-1--link">Tất</a></li>
+                        <li><a href="" class="sub-menu-1--link">Túi tập luyện</a></li>
+                        <li><a href="" class="sub-menu-1--link">Găng tay</a></li>
+                        <li><a href="" class="sub-menu-1--link">Bóng</a></li>
+                        <li><a href="" class="sub-menu-1--link">Khẩu trang</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item nav-item__third">
+              <a class="nav-link nav-link__third" href="#">Nữ <i class="fi-rs-caret-down"></i></a>
+              <div class="sub-menu-1">
+                <ul>
+                  <li class="hover-me"> <a href="" class="sub-menu-1--link">Tất cả</a>
+                  </li>
+                  <li class="hover-me"><a href="" class="sub-menu-1--link">Giày</a><i class="fi-rr-caret-right"></i>
+                      <div class="sub-menu-2">
+                        <ul>
+                          <li><a href="" class="sub-menu-1--link">Chạy</a></li>
+                          <li><a href="" class="sub-menu-1--link">Cầu lông</a></li>
+                          <li><a href="" class="sub-menu-1--link">Quần vợt</a></li>
+                          <li><a href="" class="sub-menu-1--link">dep</a></li>
+                          <li><a href="" class="sub-menu-1--link">Tập luyện</a></li>
+
+                        </ul>
+                      </div>
+                  </li>
+                  <li class="hover-me"><a href="" class="sub-menu-1--link">Quần áo</a><i class="fi-rr-caret-right"></i>
+                    <div class="sub-menu-2">
+                      <ul>
+                        <li><a href="" class="sub-menu-1--link">Áo phông & Áo không tay</a></li>
+                        <li><a href="" class="sub-menu-1--link">Áo nỉ & bộ đồ thể thao</a></li>
+                        <li><a href="" class="sub-menu-1--link">Áo ngực thể thao</a></li>
+                        <li><a href="" class="sub-menu-1--link">Quần bó</a></li>
+                        <li><a href="" class="sub-menu-1--link">Quần sort</a></li>
+                        <li><a href="" class="sub-menu-1--link">Váy</a></li>
+                        <li><a href="" class="sub-menu-1--link">Đồ bầu</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="hover-me"><a href="" class="sub-menu-1--link">Phụ kiện</a><i class="fi-rr-caret-right"></i>
+                    <div class="sub-menu-2">
+                      <ul>
+                        <li><a href="" class="sub-menu-1--link">Túi</a></li>
+                        <li><a href="" class="sub-menu-1--link">Ba lô</a></li>
+                        <li><a href="" class="sub-menu-1--link">Tất</a></li>
+                        <li><a href="" class="sub-menu-1--link">Mũ</a></li>
+                        <li><a href="" class="sub-menu-1--link">Găng tay</a></li>
+                        <li><a href="" class="sub-menu-1--link">Khẩu trang</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item nav-item__third">
+              <a class="nav-link nav-link__third" href="#">Thể thao <i class="fi-rs-caret-down"></i></a>
+              <div class="sub-menu-1">
+                <ul>
+                  <li class="hover-me"> <a href="" class="sub-menu-1--link">Tất cả</a>
+                  </li>
+                  <li class="hover-me"><a href="" class="sub-menu-1--link">Bóng đá</a><i class="fi-rr-caret-right"></i>
+                      <div class="sub-menu-2">
+                        <ul>
+                          <li><a href="" class="sub-menu-1--link">Giày ống</a></li>
+                          <li><a href="" class="sub-menu-1--link">Quần áo</a></li>
+                          <li><a href="" class="sub-menu-1--link">Phụ kiện</a></li>
+                          <li><a href="" class="sub-menu-1--link">Giày predator</a></li>
+                          <li><a href="" class="sub-menu-1--link">Giày X</a></li>
+
+                        </ul>
+                      </div>
+                  </li>
+                  <li class="hover-me"><a href="" class="sub-menu-1--link">Chạy</a><i class="fi-rr-caret-right"></i>
+                    <div class="sub-menu-2">
+                      <ul>
+                        <li><a href="" class="sub-menu-1--link">Giày</a></li>
+                        <li><a href="" class="sub-menu-1--link">Quần áo</a></li>
+                        <li><a href="" class="sub-menu-1--link">Phụ kiện</a></li>
+                        <li><a href="" class="sub-menu-1--link">Ultraboots 21</a></li>
+                        <li><a href="" class="sub-menu-1--link">Adizero</a></li>
+                        <li><a href="" class="sub-menu-1--link">X9000</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="hover-me"><a href="" class="sub-menu-1--link">Tập luyện</a><i class="fi-rr-caret-right"></i>
+                    <div class="sub-menu-2">
+                      <ul>
+                        <li><a href="" class="sub-menu-1--link">Giày</a></li>
+                        <li><a href="" class="sub-menu-1--link">Quần áo</a></li>
+                        <li><a href="" class="sub-menu-1--link">Phụ kiện</a></li>
+                        <li><a href="" class="sub-menu-1--link">Climacool</a></li>
+                        <li><a href="" class="sub-menu-1--link">Dòng sản phẩm Essentials</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="hover-me"><a href="" class="sub-menu-1--link">Khác</a><i class="fi-rr-caret-right"></i>
+                    <div class="sub-menu-2">
+                      <ul>
+                        <li><a href="" class="sub-menu-1--link">Bơi lội</a></li>
+                        <li><a href="" class="sub-menu-1--link">Golf</a></li>
+                        <li><a href="" class="sub-menu-1--link">Quần vợt</a></li>
+                        <li><a href="" class="sub-menu-1--link">Cầu lông</a></li>
+                        <li><a href="" class="sub-menu-1--link">Bóng rỗ</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item nav-item__third">
+              <a class="nav-link nav-link__third" href="#">Các nhãn hiệu <i class="fi-rs-caret-down"></i></a>
+              <div class="sub-menu-1">
+                <ul>
+                  <!-- <li class="hover-me"> <a href="" class="sub-menu-1--link">Tất cả</a>
+                  </li> -->
+                  <li class="hover-me"><a href="" class="sub-menu-1--link">Adidas</a><i class="fi-rr-caret-right"></i>
+                      <div class="sub-menu-2">
+                        <ul>
+                          <li><a href="" class="sub-menu-1--link">Giày ống</a></li>
+                          <li><a href="" class="sub-menu-1--link">Quần áo</a></li>
+                          <li><a href="" class="sub-menu-1--link">Phụ kiện</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li class="hover-me"><a href="" class="sub-menu-1--link">Nike</a><i class="fi-rr-caret-right"></i>
+                    <div class="sub-menu-2">
+                      <ul>
+                        <li><a href="" class="sub-menu-1--link">Giày</a></li>
+                        <li><a href="" class="sub-menu-1--link">Quần áo</a></li>
+                        <li><a href="" class="sub-menu-1--link">Phụ kiện</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="hover-me"><a href="" class="sub-menu-1--link">Puma</a><i class="fi-rr-caret-right"></i>
+                    <div class="sub-menu-2">
+                      <ul>
+                        <li><a href="" class="sub-menu-1--link">Giày</a></li>
+                        <li><a href="" class="sub-menu-1--link">Quần áo</a></li>
+                        <li><a href="" class="sub-menu-1--link">Phụ kiện</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="hover-me"><a href="" class="sub-menu-1--link">GRAND SPORT</a><i class="fi-rr-caret-right"></i>
+                    <div class="sub-menu-2">
+                      <ul>
+                        <li><a href="" class="sub-menu-1--link">Giày</a></li>
+                        <li><a href="" class="sub-menu-1--link">Quần áo</a></li>
+                        <li><a href="" class="sub-menu-1--link">Phụ kiện</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item nav-item__third">
+              <a class="nav-link nav-link__third" href="#">Tin tức</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+      <!-- end header -->
+      <!-- content -->
+        <div class="container">
+          <div class="content" style="height: 100px;box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);margin-top: 200px;margin-bottom:200px;text-align:center">
+            <h1 style="margin-left: 20px;">Đặt hàng thành công !</h1>
+            <a style="margin-left: 20px;font-size: 16px;" href="">Tiếp tục mua hàng</a>
+          </div>
+        </div>
+      <!-- end content -->
+      <!-- footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <h3 class="footer__heading">Chính sách</h3>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="" class="footer__item--link">Chính sách bảo hành</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__item--link">Chính sách đổi trả</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__item--link">Chính sách thanh toán</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-3">
+              <h3 class="footer__heading">Thông tin về chúng tôi</h3>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="" class="footer__item--link">Cơ sở 1: Âu Cơ, Q. Tây Hồ, TP.HN</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__item--link">Cơ sở 2: Phúc Xá, Q. Ba Đình, TP.HN</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-3">
+              <h3 class="footer__heading">Theo dõi chúng tôi trên</h3>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="" class="footer__item--link"> <i class="fab fa-facebook-square footer__item--link-icon"></i>facebook</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__item--link"> <i class="fab fa-instagram-square footer__item--link-icon"></i></i>Instagram</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__item--link"> <i class="fab fa-tiktok footer__item--link-icon"></i>Tik tok</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-3">
+              <h3 class="footer__heading">CONTACT</h3>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <p><i class="fi-rs-marker footer__item-icon"></i> Ha Noi, Viet Nam</p>
+                </li>
+                <li class="footer__item">
+                  <p><i class="fi-rs-smartphone footer__item-icon"></i> Phone: <a href="tel:0123456789">0123456789</a></p>
+                </li>
+                <li class="footer__item">
+                  <p><i class="fi-rs-envelope footer__item-icon"></i> Email: <a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__text">© Bản quyền thuộc về N&Q Shop</p>
+        </div>
+      </footer>
+      <!-- end footer -->
+</body>
+</html>
