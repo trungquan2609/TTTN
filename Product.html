@@ -549,11 +549,210 @@
               </div>
             </div>
           </div>
+          <!-- phần hàng cột show sản phẩm có ghi id liên kết đến products.js để click vào thì sẽ show ra sản phẩm theo tìm kiếm -->
           <div class="row row-product" id="products">
+            <div class="col-lg-4 col-md-6 col-12 mb-20" style="margin-bottom: 20px">
+              <a href="./ProductDetail.html" class="product__new-item">
+                <div class="card" style="width: 100%">
+                  <div>
+                    <img class="card-img-top" src="${apiProduct.img}" alt="Card image cap">
+                    <form action="" class="hover-icon hidden-sm hidden-xs hidden-sm hidden-xs">
+                      <input type="hidden">
+                      <a href="" class="btn-add-to-cart" title="Mua ngay">
+                        <i class="fas fa-cart-plus"></i>
+                      </a>
+                      <a data-toggle="modal" data-target="#myModal" class="quickview" title="Xem nhanh">
+                        <i class="fas fa-search"></i>
+                      </a>
+                    </form>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title custom__name-product">
+                      ${apiProduct.name}
+                    </h5>
+                    <div class="product__price">
+                      <p class="card-text price-color product__price-old">1,000,000 đ</p>
+                      <p class="card-text price-color product__price-new">1,000,000 đ</p>
+                    </div>
+                    <div class="home-product-item__action">
+                      <span class="home-product-item__like home-product-item__like--liked">
+                          <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                          <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                      </span>
+                      <div class="home-product-item__rating">
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                      <span class="home-product-item__sold">79 đã bán</span>
+                    </div>
+                    <div class="sale-off">
+                      <span class="sale-off-percent">20%</span>
+                      <span class="sale-off-label">GIẢM</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-20" style="margin-bottom: 20px">
+              <a href="./ProductDetail.html" class="product__new-item">
+                <div class="card" style="width: 100%">
+                  <div>
+                    <img class="card-img-top" src="${apiProduct.img}" alt="Card image cap">
+                    <form action="" class="hover-icon hidden-sm hidden-xs hidden-sm hidden-xs">
+                      <input type="hidden">
+                      <a href="" class="btn-add-to-cart" title="Mua ngay">
+                        <i class="fas fa-cart-plus"></i>
+                      </a>
+                      <a data-toggle="modal" data-target="#myModal" class="quickview" title="Xem nhanh">
+                        <i class="fas fa-search"></i>
+                      </a>
+                    </form>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title custom__name-product">
+                      ${apiProduct.name}
+                    </h5>
+                    <div class="product__price">
+                      <p class="card-text price-color product__price-old">1,000,000 đ</p>
+                      <p class="card-text price-color product__price-new">1,000,000 đ</p>
+                    </div>
+                    <div class="home-product-item__action">
+                      <span class="home-product-item__like home-product-item__like--liked">
+                          <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                          <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                      </span>
+                      <div class="home-product-item__rating">
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                      <span class="home-product-item__sold">79 đã bán</span>
+                    </div>
+                    <div class="sale-off">
+                      <span class="sale-off-percent">20%</span>
+                      <span class="sale-off-label">GIẢM</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-20" style="margin-bottom: 20px">
+              <a href="./ProductDetail.html" class="product__new-item">
+                <div class="card" style="width: 100%">
+                  <div>
+                    <img class="card-img-top" src="${apiProduct.img}" alt="Card image cap">
+                    <form action="" class="hover-icon hidden-sm hidden-xs hidden-sm hidden-xs">
+                      <input type="hidden">
+                      <a href="" class="btn-add-to-cart" title="Mua ngay">
+                        <i class="fas fa-cart-plus"></i>
+                      </a>
+                      <a data-toggle="modal" data-target="#myModal" class="quickview" title="Xem nhanh">
+                        <i class="fas fa-search"></i>
+                      </a>
+                    </form>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title custom__name-product">
+                      ${apiProduct.name}
+                    </h5>
+                    <div class="product__price">
+                      <p class="card-text price-color product__price-old">1,000,000 đ</p>
+                      <p class="card-text price-color product__price-new">1,000,000 đ</p>
+                    </div>
+                    <div class="home-product-item__action">
+                      <span class="home-product-item__like home-product-item__like--liked">
+                          <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                          <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                      </span>
+                      <div class="home-product-item__rating">
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                      <span class="home-product-item__sold">79 đã bán</span>
+                    </div>
+                    <div class="sale-off">
+                      <span class="sale-off-percent">20%</span>
+                      <span class="sale-off-label">GIẢM</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-20" style="margin-bottom: 20px">
+              <a href="./ProductDetail.html" class="product__new-item">
+                <div class="card" style="width: 100%">
+                  <div>
+                    <img class="card-img-top" src="${apiProduct.img}" alt="Card image cap">
+                    <form action="" class="hover-icon hidden-sm hidden-xs hidden-sm hidden-xs">
+                      <input type="hidden">
+                      <a href="" class="btn-add-to-cart" title="Mua ngay">
+                        <i class="fas fa-cart-plus"></i>
+                      </a>
+                      <a data-toggle="modal" data-target="#myModal" class="quickview" title="Xem nhanh">
+                        <i class="fas fa-search"></i>
+                      </a>
+                    </form>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title custom__name-product">
+                      ${apiProduct.name}
+                    </h5>
+                    <div class="product__price">
+                      <p class="card-text price-color product__price-old">1,000,000 đ</p>
+                      <p class="card-text price-color product__price-new">1,000,000 đ</p>
+                    </div>
+                    <div class="home-product-item__action">
+                      <span class="home-product-item__like home-product-item__like--liked">
+                          <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                          <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                      </span>
+                      <div class="home-product-item__rating">
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="home-product-item__star--gold fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                      </div>
+                      <span class="home-product-item__sold">79 đã bán</span>
+                    </div>
+                    <div class="sale-off">
+                      <span class="sale-off-percent">20%</span>
+                      <span class="sale-off-label">GIẢM</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
-          <div class="loadmore">
+          <!-- <div class="loadmore">
+            tải thêm có css phần new css
+            <ul class="pagination">
+              <li class="page-item"> <a class="page-link" href="#">Previous</a> </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+          
+              <li class="page-item active">
+                  <a class="page-link" href="#">4</span></a>
+              </li>
+          
+              <li class="page-item"><a class="page-link" href="#">5</a></li>
+              <li class="page-item disabled">
+                  <a class="page-link" href="#">
+                      <span aria-hidden="true">&raquo;</span>
+                  </a>
+              </li>
+            </ul>
             <a style="cursor: pointer;" class="loadmore-btn">Tải thêm</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -961,7 +1160,7 @@
 </body>
 <script src="./assets/js/main.js"></script>
 <script src="./assets/js/product.js"></script>
-<script src="/assets/js/products.js"></script>
+<!-- <script src="/assets/js/products.js"></script> -->
 <!-- <script>
   var page = 1;
   
